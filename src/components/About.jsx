@@ -4,10 +4,10 @@ export default function About() {
   return (
     <div className="flex flex-col gap-8">
       {/* Main Content Area */}
-      <div>
+      <div className="px-2 md:px-0">
         {/* Title Area */}
         <div className="mb-6">
-          <h1 className="text-4xl font-bold text-white mb-3">About Me</h1>
+          <h1 className="text-2xl md:text-4xl font-bold text-white mb-3">About Me</h1>
           <div className="w-12 h-1 bg-[#FFF1A8] rounded"></div>
         </div>
 
@@ -29,11 +29,11 @@ export default function About() {
       </div>
 
       {/* Skills Section */}
-      <div>
-        <h2 className="text-2xl font-bold text-white mb-6">What Am I Skilled At?</h2>
+      <div className="px-2 md:px-0">
+        <h2 className="text-xl md:text-2xl font-bold text-white mb-6">What Am I Skilled At?</h2>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {/* Skill Card 1 */}
           <div className="bg-[#111111] border border-[#1F1F1F] rounded-lg p-6">
             <div className="flex items-start gap-4 mb-3">
