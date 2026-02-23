@@ -60,7 +60,7 @@ export default function Contact() {
       {/* Additional Message */}
       <div className="bg-[#0A0A0A] rounded-3xl border border-[#1F1F1F] p-8">
         <p className="text-[#A1A1A1] text-center">
-          I'm always open to new opportunities and interesting projects. Don't hesitate to get in touch!
+          I'm always open to new opportunities and interesting projects.
         </p>
       </div>
     </div>
