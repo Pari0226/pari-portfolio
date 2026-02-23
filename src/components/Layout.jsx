@@ -17,16 +17,16 @@ export default function Layout() {
     <div className="min-h-screen flex items-center justify-center p-6 py-12 bg-[#FFC8DD] overflow-x-hidden sm:overflow-x-hidden">
       {/* Centered Dashboard Card */}
       <div className="w-full max-w-6xl bg-[#111111] rounded-[60px] border border-[#1F1F1F] shadow-2xl p-8">
-        <div className="flex flex-col md:flex-row sm:flex-col gap-8">
+        <div className="flex flex-col md:flex-row gap-8">
           {/* Left Column - Sidebar Card */}
-          <div className="w-[30%] flex-shrink-0 sm:w-full md:w-[280px] md:flex-shrink-0">
+          <div className="w-full md:w-[280px] md:flex-shrink-0">
             <div className="bg-[#111111] rounded-5xl border border-[#1F1F1F] p-4">
               <Sidebar />
             </div>
           </div>
 
           {/* Right Column - Content Area */}
-          <div className="w-[70%] flex-1 w-full min-w-0 overflow-hidden md:w-[70%] sm:w-full">
+          <div className="flex-1 w-full min-w-0 overflow-hidden">
             {/* Tab Navigation - Pill Style */}
             <div className="mb-6">
               <div className="sm:flex flex items-center justify-between">
