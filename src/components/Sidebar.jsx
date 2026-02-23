@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function Sidebar() {
   return (
-    <div className="flex flex-col gap-4 w-full md:w-[280px] items-center md:items-start">
+    <div className="w-full md:w-[280px] lg:w-[320px] flex-shrink-0 flex flex-col gap-4 items-center md:items-start">
       {/* Profile Image Card */}
-      <div className="bg-[#1F1F1F] rounded-xl md:rounded-2xl border border-[#1F1F1F] overflow-hidden flex items-center justify-center w-full aspect-square md:aspect-[3/4]">
-        <img 
-          src="/profile.jpg" 
-          alt="Pari" 
-          className="w-full h-auto object-cover"
+      <div className="w-full aspect-[3/4] overflow-hidden rounded-xl bg-[#1F1F1F] border border-[#1F1F1F]">
+        <img
+          src="/profile.jpg"
+          alt="Pari"
+          className="w-full h-auto object-cover rounded-xl"
         />
       </div>
 
