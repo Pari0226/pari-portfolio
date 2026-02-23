@@ -63,9 +63,9 @@ export default function Projects() {
         <div className="w-16 h-1 bg-[#FFF1A8]"></div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 gap-6">
         {projects.map((project, index) => (
-          <div key={index} className="bg-[#0A0A0A] rounded-3xl border border-[#1F1F1F] p-4 md:p-6">
+          <div key={index} className="w-full bg-[#0A0A0A] rounded-3xl border border-[#1F1F1F] p-4 md:p-6">
             <div className="flex items-start gap-4">
               {/* Icon */}
               <div className="w-12 h-12 rounded-lg border border-[#FFC8DD] bg-[#111111] flex items-center justify-center text-2xl flex-shrink-0">
