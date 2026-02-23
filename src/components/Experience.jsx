@@ -42,14 +42,14 @@ export default function Experience() {
         {experiences.map((exp, index) => (
           <div key={index} className="relative pt-4 pb-6">
             {/* Experience Card */}
-            <div className="flex gap-6">
+            <div className="flex gap-6 overflow-hidden w-full">
               {/* Icon Circle */}
               <div className="w-12 h-12 rounded-full border-2 border-[#FFC8DD] bg-[#111111] flex items-center justify-center text-xl flex-shrink-0 relative z-10">
                 {exp.type}
               </div>
 
               {/* Experience Details */}
-              <div className="flex-1 bg-[#0A0A0A] rounded-2xl border border-[#1F1F1F] p-6">
+              <div className="flex-1 bg-[#0A0A0A] rounded-2xl border border-[#1F1F1F] p-6 min-w-0 overflow-hidden w-full">
                 <div className="mb-2">
                   <h2 className="text-2xl font-bold text-white">{exp.company}</h2>
                   <p className="text-[#FFC8DD] font-semibold text-sm">{exp.title}</p>

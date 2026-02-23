@@ -65,7 +65,7 @@ export default function Projects() {
 
       <div className="space-y-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1">
         {projects.map((project, index) => (
-          <div key={index} className="bg-[#0A0A0A] rounded-3xl border border-[#1F1F1F] p-6">
+          <div key={index} className="bg-[#0A0A0A] rounded-3xl border border-[#1F1F1F] p-6 w-full overflow-hidden">
             <div className="flex items-start gap-4">
               {/* Icon */}
               <div className="w-12 h-12 rounded-lg border border-[#FFC8DD] bg-[#111111] flex items-center justify-center text-2xl flex-shrink-0">

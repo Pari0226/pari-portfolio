@@ -16,7 +16,7 @@ export default function Layout() {
   return (
     <div className="min-h-screen flex items-center justify-center p-6 py-12 bg-[#FFC8DD] overflow-x-hidden sm:overflow-x-hidden">
       {/* Centered Dashboard Card */}
-      <div className="w-full max-w-6xl bg-[#111111] rounded-[60px] border border-[#1F1F1F] shadow-2xl p-8">
+      <div className="w-full max-w-6xl bg-[#111111] rounded-[60px] md:rounded-[60px] rounded-3xl border border-[#1F1F1F] shadow-2xl p-4 md:p-8">
         <div className="flex flex-col md:flex-row gap-8">
           {/* Left Column - Sidebar Card */}
           <div className="w-full md:w-[280px] md:flex-shrink-0">
@@ -65,7 +65,7 @@ export default function Layout() {
             </div>
             
             {/* Content Card */}
-            <div className="bg-[#111111] rounded-3xl border border-[#1F1F1F] p-8">
+            <div className="bg-[#111111] rounded-3xl border border-[#1F1F1F] p-4 md:p-8">
               {activeTab === 'about' && <About />}
               {activeTab === 'experience' && <Experience />}
               {activeTab === 'education' && <Education />}

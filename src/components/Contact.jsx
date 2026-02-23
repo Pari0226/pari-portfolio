@@ -40,14 +40,14 @@ export default function Contact() {
               href={method.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-4 p-4 rounded-2xl border border-[#1F1F1F] bg-[#111111] hover:bg-[#1F1F1F] hover:border-[#FFC8DD] transition-all group"
+              className="flex items-center gap-4 p-4 rounded-2xl border border-[#1F1F1F] bg-[#111111] hover:bg-[#1F1F1F] hover:border-[#FFC8DD] transition-all group min-w-0 overflow-hidden"
             >
               <div className="w-10 h-10 rounded-lg border border-[#FFC8DD] bg-[#0A0A0A] flex items-center justify-center text-xl group-hover:bg-[#FFC8DD] group-hover:text-black transition-colors">
                 {method.icon}
               </div>
               <div className="flex-1">
                 <h3 className="text-xl font-bold text-white">{method.platform}</h3>
-                <p className="text-[#A1A1A1] text-sm">{method.handle}</p>
+                <p className="text-[#A1A1A1] text-sm break-all">{method.handle}</p>
               </div>
               <svg className="w-5 h-5 text-[#FFC8DD] opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
