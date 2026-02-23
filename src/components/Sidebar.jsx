@@ -4,7 +4,7 @@ export default function Sidebar() {
   return (
     <div className="flex flex-col gap-4">
       {/* Profile Image Card */}
-      <div className="bg-[#1F1F1F] rounded-2xl border border-[#1F1F1F] overflow-hidden aspect-[3/4] flex items-center justify-center">
+      <div className="bg-[#1F1F1F] rounded-2xl border border-[#1F1F1F] overflow-hidden aspect-[3/4] flex items-center justify-center sm:w-full">
         <img 
           src="/profile.jpg" 
           alt="Pari" 
