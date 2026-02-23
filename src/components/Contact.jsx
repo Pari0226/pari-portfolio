@@ -23,7 +23,7 @@ export default function Contact() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-4xl font-bold text-white mb-4">Contact</h1>
+        <h1 className="text-4xl font-bold text-white mb-4 text-2xl md:text-4xl">Contact</h1>
         <div className="w-16 h-1 bg-[#FFF1A8]"></div>
       </div>
 

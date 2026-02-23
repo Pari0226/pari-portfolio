@@ -14,25 +14,25 @@ export default function Layout() {
   const tabs = ['about', 'projects', 'experience', 'education', 'contact']
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-6 py-12 bg-[#FFC8DD] sm:overflow-x-hidden">
+    <div className="min-h-screen flex items-center justify-center p-6 py-12 bg-[#FFC8DD] overflow-x-hidden sm:overflow-x-hidden">
       {/* Centered Dashboard Card */}
       <div className="w-full max-w-6xl bg-[#111111] rounded-[60px] border border-[#1F1F1F] shadow-2xl p-8">
-        <div className="flex sm:flex-col md:flex-row gap-8">
+        <div className="flex flex-col md:flex-row sm:flex-col gap-8">
           {/* Left Column - Sidebar Card */}
-          <div className="w-[30%] flex-shrink-0 sm:w-full md:w-[280px]">
+          <div className="w-[30%] flex-shrink-0 sm:w-full md:w-[280px] md:flex-shrink-0">
             <div className="bg-[#111111] rounded-5xl border border-[#1F1F1F] p-4">
               <Sidebar />
             </div>
           </div>
 
           {/* Right Column - Content Area */}
-          <div className="w-[70%]">
+          <div className="w-[70%] flex-1 w-full min-w-0 overflow-hidden md:w-[70%] sm:w-full">
             {/* Tab Navigation - Pill Style */}
             <div className="mb-6">
-              <div className="sm:flex items-center justify-between">
-                <div className="sm:flex items-center">
+              <div className="sm:flex flex items-center justify-between">
+                <div className="sm:flex flex items-center">
                   <button
-                    className="sm:flex md:hidden text-white text-2xl p-2"
+                    className="flex md:hidden text-white text-2xl p-2"
                     onClick={() => setMenuOpen(!menuOpen)}
                     aria-label="Menu"
                   >
@@ -40,7 +40,7 @@ export default function Layout() {
                   </button>
                 </div>
 
-                <div className="bg-[#111111] rounded-full p-1 inline-flex border border-[#1F1F1F] sm:hidden md:inline-flex">
+                <div className="bg-[#111111] rounded-full p-1 inline-flex border border-[#1F1F1F] hidden md:flex">
                   <TabNav 
                     tabs={tabs} 
                     activeTab={activeTab} 

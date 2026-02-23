@@ -33,7 +33,7 @@ export default function About() {
         <h2 className="text-2xl font-bold text-white mb-6 sm:text-2xl md:text-4xl">What Am I Skilled At?</h2>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-1 md:grid-cols-3">
+        <div className="grid grid-cols-2 gap-6 sm:grid-cols-1 md:grid-cols-3 grid-cols-1">
           {/* Skill Card 1 */}
           <div className="bg-[#111111] border border-[#1F1F1F] rounded-lg p-6">
             <div className="flex items-start gap-4 mb-3">

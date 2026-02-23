@@ -31,7 +31,7 @@ export default function Education() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-4xl font-bold text-white mb-4">Education</h1>
+        <h1 className="text-4xl font-bold text-white mb-4 text-2xl md:text-4xl">Education</h1>
         <div className="w-16 h-1 bg-[#FFF1A8]"></div>
       </div>
 

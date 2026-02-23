@@ -63,7 +63,7 @@ export default function Projects() {
         <div className="w-16 h-1 bg-[#FFF1A8]"></div>
       </div>
 
-      <div className="space-y-6 sm:grid sm:grid-cols-1 md:grid-cols-1">
+      <div className="space-y-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1">
         {projects.map((project, index) => (
           <div key={index} className="bg-[#0A0A0A] rounded-3xl border border-[#1F1F1F] p-6">
             <div className="flex items-start gap-4">
