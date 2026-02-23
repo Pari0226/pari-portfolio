@@ -33,15 +33,15 @@ export default function About() {
         <h2 className="text-xl md:text-2xl font-bold text-white mb-6">What Am I Skilled At?</h2>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {/* Skill Card 1 */}
-          <div className="bg-[#111111] border border-[#1F1F1F] rounded-lg p-6">
+          <div className="bg-[#111111] border border-[#1F1F1F] rounded-lg w-full p-4">
             <div className="flex items-start gap-4 mb-3">
               <div className="w-12 h-12 rounded-lg border-2 border-[#FFC8DD] flex items-center justify-center text-2xl flex-shrink-0 bg-[#0A0A0A]">
                 ⚛️
               </div>
               <div>
-                <h3 className="text-lg font-bold text-white">Web Development</h3>
+                <h3 className="text-base font-bold text-white">Web Development</h3>
               </div>
             </div>
             <p className="text-[#A1A1A1] text-sm leading-relaxed">
@@ -50,13 +50,13 @@ export default function About() {
           </div>
 
           {/* Skill Card 2 */}
-          <div className="bg-[#111111] border border-[#1F1F1F] rounded-lg p-6">
+          <div className="bg-[#111111] border border-[#1F1F1F] rounded-lg w-full p-4">
             <div className="flex items-start gap-4 mb-3">
               <div className="w-12 h-12 rounded-lg border-2 border-[#FFC8DD] flex items-center justify-center text-2xl flex-shrink-0 bg-[#0A0A0A]">
                 🤖
               </div>
               <div>
-                <h3 className="text-lg font-bold text-white">AI & ML Development</h3>
+                <h3 className="text-base font-bold text-white">AI & ML Development</h3>
               </div>
             </div>
             <p className="text-[#A1A1A1] text-sm leading-relaxed">
@@ -65,13 +65,13 @@ export default function About() {
           </div>
 
           {/* Skill Card 3 */}
-          <div className="bg-[#111111] border border-[#1F1F1F] rounded-lg p-6">
+          <div className="bg-[#111111] border border-[#1F1F1F] rounded-lg w-full p-4">
             <div className="flex items-start gap-4 mb-3">
               <div className="w-12 h-12 rounded-lg border-2 border-[#FFC8DD] flex items-center justify-center text-2xl flex-shrink-0 bg-[#0A0A0A]">
                 📊
               </div>
               <div>
-                <h3 className="text-lg font-bold text-white">Data Structures & Algorithms</h3>
+                <h3 className="text-base font-bold text-white">Data Structures & Algorithms</h3>
               </div>
             </div>
             <p className="text-[#A1A1A1] text-sm leading-relaxed">
