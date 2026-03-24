@@ -1,6 +1,19 @@
 export default function Experience() {
   const experiences = [
     {
+      company: 'WeAddo Pvt Ltd',
+      title: 'Frontend Developer Intern',
+      type: '🌐',
+      duration: 'Mar 2026 – Present',
+      location: 'Gurgaon, Haryana (On-site)',
+      bullets: [
+        'Maintained and updated content for live client websites ensuring consistency and accuracy.',
+        'Converted Figma designs into responsive web pages using internal page builder.',
+        'Collaborated with team to implement UI/UX requirements in production environments.',
+        'Resolved layout and responsiveness issues across different devices.'
+      ]
+    },
+    {
       company: 'Quecksilber Technologies Private Limited',
       title: 'Developer Intern',
       type: '💼',
@@ -17,7 +30,7 @@ export default function Experience() {
       company: 'QRowd x Studio',
       title: 'Web Developer Intern',
       type: '🌐',
-      duration: 'Jan 2026 - Present',
+      duration: 'Jan 2026 - Feb 2026',
       location: 'Remote',
       bullets: [
         'Building responsive web applications using React and modern JavaScript frameworks',

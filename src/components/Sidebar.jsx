@@ -69,7 +69,7 @@ export default function Sidebar() {
         <div className="w-5 h-5 text-[#FFC8DD] mt-0.5 flex-shrink-0 text-lg">📍</div>
         <div>
           <p className="text-xs font-semibold text-[#A1A1A1] uppercase tracking-wide">Location</p>
-          <p className="text-xs text-white">Varanasi, Uttar Pradesh</p>
+          <p className="text-xs text-white">Gurgaon, Haryana</p>
         </div>
       </div>
     </div>
